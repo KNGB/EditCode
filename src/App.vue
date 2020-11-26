@@ -1,16 +1,19 @@
 <template>
   <div id="app">
     <mode></mode>
+    <inputEnter></inputEnter>
   </div>
 </template>
 
 <script>
 
 import mode from './mode'
+import inputEnter from './inputEnter'
 export default {
   name: 'App',
   components: {
-   mode
+   mode,
+   inputEnter
   }
 }
 </script>

@@ -1,8 +1,9 @@
 <template>
-  <div>
+  <div class="modeEdit">
     <!-- begin code -->
+    {{mode}}
     <textarea ref="textarea"></textarea>
-    <el-select class="code-mode-select" v-model="mode" @change="changeMode">
+    <!-- <el-select class="code-mode-select" v-model="mode" @change="changeMode">
       <el-option
         v-for="mode in modes"
         :key="mode.value"
@@ -10,8 +11,8 @@
         :value="mode.value"
       >
       </el-option>
-    </el-select>
-    <el-button @click="runCode">执行代码</el-button>
+    </el-select> -->
+    <el-button @click="runCode">完成</el-button>
     <!-- end code-->
   </div>
 </template>
@@ -196,4 +197,5 @@ export default {
 .in-coder-panel {
   text-align: left;
 }
+
 </style>
