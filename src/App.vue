@@ -2,20 +2,22 @@
   <div id="app">
     <mode></mode>
     <inputEnter></inputEnter>
+    <canvasa></canvasa>
   </div>
 </template>
 
 <script>
-
-import mode from './mode'
-import inputEnter from './inputEnter'
+import mode from "./mode";
+import inputEnter from "./inputEnter";
+import canvasa from "./canvas";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-   mode,
-   inputEnter
-  }
-}
+    mode,
+    inputEnter,
+    canvasa,
+  },
+};
 </script>
 
 <style>
